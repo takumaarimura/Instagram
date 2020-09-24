@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,8 @@
 		E8F2A77A251798E000F258B0 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2A779251798E000F258B0 /* ImageSelectViewController.swift */; };
 		E8F2A77C2517990200F258B0 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2A77B2517990200F258B0 /* PostViewController.swift */; };
 		E8F2A77E2517991D00F258B0 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2A77D2517991D00F258B0 /* SettingViewController.swift */; };
+		E8F2A78025188D2000F258B0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2A77F25188D2000F258B0 /* TabBarController.swift */; };
+		E8F2A782251C699A00F258B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8F2A781251C699A00F258B0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		E8F2A779251798E000F258B0 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
 		E8F2A77B2517990200F258B0 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		E8F2A77D2517991D00F258B0 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		E8F2A77F25188D2000F258B0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E8F2A781251C699A00F258B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +93,12 @@
 				E8F2A779251798E000F258B0 /* ImageSelectViewController.swift */,
 				E8F2A77B2517990200F258B0 /* PostViewController.swift */,
 				E8F2A77D2517991D00F258B0 /* SettingViewController.swift */,
+				E8F2A77F25188D2000F258B0 /* TabBarController.swift */,
 				E8F2A7672517957700F258B0 /* Main.storyboard */,
 				E8F2A76A2517957C00F258B0 /* Assets.xcassets */,
 				E8F2A76C2517957C00F258B0 /* LaunchScreen.storyboard */,
 				E8F2A76F2517957C00F258B0 /* Info.plist */,
+				E8F2A781251C699A00F258B0 /* GoogleService-Info.plist */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -103,7 +109,6 @@
 				341350E404893EC3E15F8640 /* Pods-Instagram.debug.xcconfig */,
 				47DC1E24753F046B092EC5DC /* Pods-Instagram.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -168,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8F2A76E2517957C00F258B0 /* LaunchScreen.storyboard in Resources */,
+				E8F2A782251C699A00F258B0 /* GoogleService-Info.plist in Resources */,
 				E8F2A76B2517957C00F258B0 /* Assets.xcassets in Resources */,
 				E8F2A7692517957700F258B0 /* Main.storyboard in Resources */,
 			);
@@ -225,6 +231,7 @@
 				E8F2A77A251798E000F258B0 /* ImageSelectViewController.swift in Sources */,
 				E8F2A778251798BC00F258B0 /* HomeViewController.swift in Sources */,
 				E8F2A77C2517990200F258B0 /* PostViewController.swift in Sources */,
+				E8F2A78025188D2000F258B0 /* TabBarController.swift in Sources */,
 				E8F2A77E2517991D00F258B0 /* SettingViewController.swift in Sources */,
 				E8F2A7762517984600F258B0 /* LoginViewController.swift in Sources */,
 				E8F2A7662517957700F258B0 /* ViewController.swift in Sources */,
