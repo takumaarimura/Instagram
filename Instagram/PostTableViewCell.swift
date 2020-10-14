@@ -61,10 +61,12 @@ class PostTableViewCell: UITableViewCell {
             self.likeButton.setImage(buttonImage, for: .normal)
         }
         
-        
+        var withoutCamma = ""
        
-        self.commentLabel.text = "\(postData.comment)"
-        
+        for comment_text in postData.comment {
+          withoutCamma += comment_text + "\n"
+        }
+        commentLabel.text = withoutCamma
     }
     
 }
